@@ -11,10 +11,10 @@ class student:
         else:
             print( "La nota no esta en el rango permitido")
     def get_grade(self):
-        return self.grade
+        return self.__grade
     def promote (self):
-        if self.grade< 10:
-            self.grade=self.grade+1
+        if self.__grade< 10:
+            self.__grade=self.__grade+1
     def __eq__(self):
         print("")
 ##creamos los objetos?
