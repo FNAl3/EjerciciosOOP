@@ -21,4 +21,6 @@ Cuenta1=BankAccount(100)
 Cuenta1.deposit(50)
 Cuenta1.withdraw(100)
 #print que nos dice el balance de la cuenta
+#si Quieres probar el mensaje que salta al quitar más de lo que tiene
+#comenta este print
 print(f"Balance actual {Cuenta1.get_balance()}")
